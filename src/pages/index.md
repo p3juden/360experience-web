@@ -1,17 +1,17 @@
 ---
 templateKey: index-page
 title: 360 EXPERIENCE
-image: /img/360homebanner.jpg
+image: /img/360homebanner-vesitornisunset.jpg
 subheading: Näe, koe, tutustu uudella tavalla
 title2: NOUSE TAIVAALLE
-image2: /img/360homebanner2.jpg
+image2: /img/360homebanner-satama.jpg
 subheading2: ja lennä kuin lintu
 title3: KOE
 image3: /img/360homebanner3.jpg
 subheading3: Koe kohteet ennakkoon videolla
 title4: TUTUSTU
-image4: /img/360homebanner4.jpg
-subheading4: Tutustu virtuaalisesti
+image4: /img/360homebanner-siltasaariterde.jpg
+subheading4: kohteisiin virtuaalikierroksella
 heading: Great coffee with a conscience
 mainpitch:
   title: Miksi 360 experience?
