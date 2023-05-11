@@ -26,17 +26,17 @@ const Footer = () => {
                   <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
-                        Home
+                        Koti
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/about">
-                        About
+                        Tieto meistä
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/products">
-                        Products
+                        Tuotteet
                       </Link>
                     </li>
                     <li>
