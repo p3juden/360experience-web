@@ -7,7 +7,7 @@ title2: NOUSE TAIVAALLE
 image2: /img/360homebanner-satama.jpg
 subheading2: ja lennä kuin lintu
 title3: KOE
-image3: /img/360homebanner3.jpg
+image3: /img/360homebanner-video-kollaasi.jpg
 subheading3: Koe kohteet ennakkoon videolla
 title4: TUTUSTU
 image4: /img/360homebanner-siltasaariterde.jpg
