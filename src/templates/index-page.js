@@ -11,18 +11,34 @@ import FullWidthImage from "../components/FullWidthImage";
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
+  image2,
+  image3,
+  image4,
   title,
-  heading,
+  title2,
+  title3,
+  title4,
   subheading,
+  subheading2,
+  subheading3,
+  subheading4,
+  heading,
   mainpitch,
   description,
   intro,
 }) => {
   const heroImage = getImage(image) || image;
+  const heroImage2 = getImage(image2) || image2;
+  const heroImage3 = getImage(image3) || image3;
+  const heroImage4 = getImage(image4) || image4;
 
   return (
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      <FullWidthImage img={heroImage2} title={title2} subheading={subheading2} />
+      <FullWidthImage img={heroImage3} title={title3} subheading={subheading3} />
+      <FullWidthImage img={heroImage4} title={title4} subheading={subheading4} />
+
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -76,9 +92,18 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  image4: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
+  title2: PropTypes.string,
+  title3: PropTypes.string,
+  title4: PropTypes.string,
   subheading: PropTypes.string,
+  subheading2: PropTypes.string,
+  subheading3: PropTypes.string,
+  subheading4: PropTypes.string,
+  heading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -93,9 +118,18 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
+        image2={frontmatter.image2}
+        image3={frontmatter.image3}
+        image4={frontmatter.image4}
         title={frontmatter.title}
-        heading={frontmatter.heading}
+        title2={frontmatter.title2}
+        title3={frontmatter.title3}
+        title4={frontmatter.title4}
         subheading={frontmatter.subheading}
+        subheading2={frontmatter.subheading2}
+        subheading3={frontmatter.subheading3}
+        subheading4={frontmatter.subheading4}
+        heading={frontmatter.heading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -119,13 +153,34 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        title2
+        title3
+        title4
         image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
+        image2 {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
+        image3 {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
+        image4 {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
         heading
         subheading
+        subheading2
+        subheading3
+        subheading4
         mainpitch {
           title
           description
