@@ -29,8 +29,10 @@ intro:
         navigointipistettä. Pakettihintaan kuuluu  10 visualisointia ja 10
         videota jotka voidaan lisätä jokaiseen navigointipisteeseen näkyviin.
     - image: /img/360homebanner3.jpg
-      text: |-
-        Custom pakettiimme kuuluu suurikoikoinen Saija Seponseponseppo
+      text: >-
+        Custom pakettiimme kuuluu suurikoikoinen ja kovaääninen Saija
+        Seponseponseppo
+
 
         Hintaa on pakko kysyä erikseen
   heading: What we offer
@@ -40,59 +42,66 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Liity edelläkävijöiden joukkoon suomessa - näe ja näytä kohteesi
+    uudella tavalla
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Ole mukana virtuaalimatkailun eturintamassa ja esittele kohteesi uudella
+    tavalla. Matkailijat suunnittelevat matkojaa yhä enemmän virtuaalisesti ja
+    haluavat tietää etukäteen mihin matkakohteessa haluavat tutustua. 360
+    experience on saumattomasti 360.sinunkohteesi.fi ja se liittyy saumattomasti
+    esim matkailusivustoosi. Myös kaikki materiaali voidaan tuoda omalle web
+    sivustollesi.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/360homebanner4.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/360homebanner3.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: kivaa tekemistä
+    image: /img/360homebanner-video-kollaasi.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
-    quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: Kaldi is the place to go if you want the best quality coffee. I love
-      their stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+    quote: Olipa mukava suunnitella kesäloma etukäteen virtuaalisesti netissä.
+      Löytyi useita kohteita joissa en kuvien perusteella olisi käynyt mutta
+      videot, virtuaalikierrokset ja lintuperspektiivi avasi aivan uudenlaiset
+      mahdollisuudet lomanviettoon.
+  - author: Nuuska Muikkunen
+    quote: Olen koko ikäni kiertänut museot - kaukaa.. nyt käväsin virtuaalisesti ja
+      taidanpa poiketa oikeastikin.
+full_image: /img/360homebanner-video-kollaasi.jpg
 pricing:
   heading: Pakettien hinnat
-  description: We make it easy to make great coffee a part of your life. Choose
-    one of our monthly subscription plans to receive great coffee at your
-    doorstep each month. Contact us about more details and payment info.
+  description: Tarjoamme helpon hinnottelumallin projektinne lähtökohdaksi.
   plans:
     - description: Linnat, huvipuistot, leirintäalueet
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
+        - navigointialusta
+        - 4 navigointipistettä
+        - 4videota
+        - 4virtuaalikohdetta
       plan: Small
       price: "5000"
     - description: kaupungit / kunnat / suuret kokonaisuudet
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
+        - navigointialusta
+        - 10 navigointipistettä
+        - 5videota
+        - 5virtuaalikohdetta
       plan: Medium
       price: "8000"
     - plan: Large
       price: "1000"
       description: suuret kaupungit / kuntayhtymät
       items:
-        - 20 navigointipistetta
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - navigointialusta
+        - 20 navigointipistettä
+        - 10videota
+        - 10virtuaalikohdetta
+    - description: Kun haluat enemmän tai hieman eri yhdistelmän, kysy räätälöity hintamme
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
+        - Alusta
+        - sisältö toiveittesi mukaan
       plan: Custom
       price: Kysy tarjous
 ---
