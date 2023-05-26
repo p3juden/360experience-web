@@ -81,7 +81,7 @@ pricing:
         - 4videota
         - 4virtuaalikohdetta
       plan: Small
-      price: "5000"
+      price: "5000€"
     - description: kaupungit / kunnat / suuret kokonaisuudet
       items:
         - navigointialusta
@@ -89,9 +89,9 @@ pricing:
         - 5videota
         - 5virtuaalikohdetta
       plan: Medium
-      price: "8000"
+      price: "10000€"
     - plan: Large
-      price: "1000"
+      price: "15 000€"
       description: suuret kaupungit / kuntayhtymät
       items:
         - navigointialusta
