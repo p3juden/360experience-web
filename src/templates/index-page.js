@@ -102,7 +102,7 @@ export const IndexPageTemplate = ({
           </div>
         </ReactPannellum>
       
-      {/*<FullWidthImage img={heroImage} title={title} subheading={subheading} />*/}
+      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <FullWidthImage
         img={heroImage2}
         title={title2}
