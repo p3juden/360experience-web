@@ -81,8 +81,8 @@ pricing:
         - 4 navigointipistettä (max 5 kohdetta jokaisessa navigointipisteessä)
         - 4 laadukasta videota
         - 2 virtuaalikierrosta alle 500 m2 rakennuksissa
-        - Mahdollisuus videoiden ja virtuaalikierrosten
-          hankintaansoppimushinnalla.
+        - Mahdollisuus hankkia lisää kohteiden videoita tai virtuaalikierroksia
+          sopimushinnalla.
       plan: Small
       price: 20 000€
     - description: 20000-50000 asukkaan kunnat,  6-8 yrityksen alueet, huvipuistot, linnat
@@ -91,8 +91,8 @@ pricing:
         - 6 navigointipistettä (max 5 kohdetta jokaisessa navigointipisteessä)
         - 6 laadukasta videota
         - 3 virtuaalikierrosta (alle 500 m2 rakennuksissa)
-        - Mahdollisuus videoiden ja virtuaalikierrosten
-          hankintaansoppimushinnalla.
+        - Mahdollisuus hankkia lisää kohteiden videoita tai virtuaalikierroksia
+          sopimushinnalla.
       plan: Medium
       price: 30000€
     - plan: Large
