@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
+import ReactPannellum from "react-pannellum";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -32,12 +33,91 @@ export const IndexPageTemplate = ({
   const heroImage3 = getImage(image3) || image3;
   const heroImage4 = getImage(image4) || image4;
 
+  const config = {
+    autoLoad: true,
+    autoRotate: -5,
+    showFullscreenCtrl: false,
+    keyboardZoom: false,
+    hotspotDebug:true,
+    mouseZoom: false,
+    showFullscreenCtrl: false,
+    showControls: false,
+    orientationOnByDefault:true,
+    hfov: 150,
+    pitch: -30,
+  };
+
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <FullWidthImage img={heroImage2} title={title2} subheading={subheading2} />
-      <FullWidthImage img={heroImage3} title={title3} subheading={subheading3} />
-      <FullWidthImage img={heroImage4} title={title4} subheading={subheading4} />
+      <ReactPannellum
+        id="1"
+        sceneId="firstScene"
+        imageSource="https://heinolan-kaupunki.s3.eu-west-1.amazonaws.com/pictures/360/satama-md.jpg"
+        config={config}
+        style={{ width: '100vw', height: '60vh', marginBottom: "0.5em", display: "grid", alignItems: "center",}}
+      >
+        <div
+            style={{
+              // By using the same grid area for both, they are stacked on top of each other
+              //marginTop: "0.5rem",
+              gridArea: "1/1",
+              position: "relative",
+              // This centers the other elements inside the hero component
+              placeItems: "center",
+              display: "grid",
+              zIndex: 1,
+            }}
+          >
+              {title && (
+              <h1
+                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                style={{
+                  boxShadow:
+                    "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                  backgroundColor: "rgb(185,66,96)",
+                  color: "white",
+                  lineHeight: "1",
+                  padding: "0.25em",
+                }}
+              >
+                {title}
+              </h1>
+            )}
+            {subheading && (
+              <h3
+                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                style={{
+                  boxShadow:
+                    "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                  backgroundColor: "rgb(185,66,96)",
+                  color: "white",
+                  lineHeight: "1",
+                  padding: "0.25rem",
+                  marginTop: "0.5rem",
+                }}
+              >
+                {subheading}
+              </h3>
+            )}
+          </div>
+        </ReactPannellum>
+      
+      {/*<FullWidthImage img={heroImage} title={title} subheading={subheading} />*/}
+      <FullWidthImage
+        img={heroImage2}
+        title={title2}
+        subheading={subheading2}
+      />
+      <FullWidthImage
+        img={heroImage3}
+        title={title3}
+        subheading={subheading3}
+      />
+      <FullWidthImage
+        img={heroImage4}
+        title={title4}
+        subheading={subheading4}
+      />
 
       <section className="section section--gradient">
         <div className="container">

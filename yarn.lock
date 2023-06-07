@@ -10481,6 +10481,11 @@ react-modal@^3.8.1:
     react-lifecycles-compat "^3.0.0"
     warning "^4.0.3"
 
+react-pannellum@^0.2.14:
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/react-pannellum/-/react-pannellum-0.2.14.tgz#f5c34e653bcf97a65c81b002dfb576a5cc7320db"
+  integrity sha512-FTgYAZQc9EC9zGGo16mTfYb6z0+enrrdYnCmOP8QMfRRRXRScEFEGVkWYh2KAw7Msg55urAKwJkBnx7tfxzSzw==
+
 react-polyglot@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/react-polyglot/-/react-polyglot-0.7.2.tgz#b0277688c6d26eaff3312774738859cac53a227c"
