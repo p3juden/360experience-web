@@ -74,24 +74,29 @@ pricing:
   heading: Pakettien hinnat
   description: Tarjoamme helpon hinnottelumallin projektinne lähtökohdaksi.
   plans:
-    - description: Linnat, huvipuistot, leirintäalueet
+    - description: Pienet kunnat, 4-5 yrityksen alueet, linnat, leirintäalueet,
+        liikunta- ja kulttuurikohteet
       items:
         - navigointialusta
-        - 4 navigointipistettä
-        - 4videota
-        - 4virtuaalikohdetta
+        - 4 navigointipistettä (max 5 kohdetta jokaisessa navigointipisteessä)
+        - 4 laadukasta videota
+        - 2 virtuaalikierrosta alle 500 m2 rakennuksissa
+        - Mahdollisuus videoiden ja virtuaalikierrosten
+          hankintaansoppimushinnalla.
       plan: Small
-      price: "5000"
-    - description: kaupungit / kunnat / suuret kokonaisuudet
+      price: 20 000€
+    - description: 20000-50000 asukkaan kunnat,  6-8 yrityksen alueet, huvipuistot, linnat
       items:
         - navigointialusta
-        - 10 navigointipistettä
-        - 5videota
-        - 5virtuaalikohdetta
+        - 6 navigointipistettä (max 5 kohdetta jokaisessa navigointipisteessä)
+        - 6 laadukasta videota
+        - 3 virtuaalikierrosta (alle 500 m2 rakennuksissa)
+        - Mahdollisuus videoiden ja virtuaalikierrosten
+          hankintaansoppimushinnalla.
       plan: Medium
-      price: "8000"
+      price: 30000€
     - plan: Large
-      price: "1000"
+      price: 50000€
       description: suuret kaupungit / kuntayhtymät
       items:
         - navigointialusta
