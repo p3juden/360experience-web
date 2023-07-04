@@ -1,39 +1,28 @@
 ---
 templateKey: index-page
-title: 360 EXPERIENCE
-image: /img/360homebanner-vesitornisunset.jpg
+heading: Näe, koe, tutustu uudella tavalla
 subheading: Näe, koe, tutustu uudella tavalla
-title2: NOUSE TAIVAALLE
-image2: /img/360homebanner-satama.jpg
-subheading2: ja lennä kuin lintu
-title3: KOE
-image3: /img/360homebanner-video-kollaasi.jpg
-subheading3: Koe kohteet ennakkoon videolla
-title4: TUTUSTU
-image4: /img/360homebanner-siltasaariterde.jpg
-subheading4: kohteisiin virtuaalikierroksella
-heading: Great coffee with a conscience
 mainpitch:
   title: Miksi 360 experience?
   description: >
-    Blabla is NOT the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    matkailijan aika on rajallista ja nykyisin yhä useammat matkailijat haluavat
+    tutustua kohteisiin etukäteen löytääkseen parhaat kokemukset lyhen loman
+    aikana mahdollisimman tehokkaasti.
+
+
+    360-experience on moderni tapa tutustua kohteeseenne ennakkoon tai esitellä kaupunkianne tai nähtävyyttänne uudella tavalla potentiaalisille kävijöille virtuaalisesti.
 intro:
   blurbs:
     - image: /img/home-img1.jpg
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: >+
+        Heinola on ensimmäinen kaupunki Suomessa, johon pääsee tutustumaan
+        virtuaalisesti 360 -experiencen kautta. Heinola lähti mukaan aluksi
+        pienellä 5 navigointipisteen paketilla jota on tarkoitus laajentaan
+        vuoden 2023 aikana. Katso osoitteessa https://360.heinola.fi, miltä
+        Heinola näyttää lintuperspektiivistä, tutustu esim siltasaareen tai
+        perhepuistoon ja kuvittele miltä sinun kuntasi tai kohteesi voisi
+        näyttää ja mitä sinä siitä kertoisit vierailijoille.
+
     - image: /img/home-img2.jpg
       text: >
         We offer a small, but carefully curated selection of brewing gear and
@@ -54,12 +43,18 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
+  heading: Mita tarjoamme
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Tarjoamme uudenlaisen alustan kuntanne tai alueenne esittelylle
+    virtuaalisesti. Palvelu on tarpeisiinne räätälöity ja integroituu
+    saumattomasti osaksi nettisivustoanne.
+subheading2: ja lennä kuin lintu
+subheading3: Koe kohteet ennakkoon videolla
+subheading4: kohteisiin virtuaalikierroksella
+image2: /img/360homebanner-satama.jpg
+image3: /img/360homebanner-video-kollaasi.jpg
+title: 360 EXPERIENCE
+image: /img/360homebanner-vesitornisunset.jpg
 main:
   heading: Great coffee with no compromises
   description: >
@@ -76,4 +71,14 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image4: /img/360homebanner-siltasaariterde.jpg
+title2: NOUSE TAIVAALLE
+title3: KOE
+title4: TUTUSTU
+description: 360-experience soveltuu esimerkiksi kunnille ja kaupungeille tai
+  isommille nähtävyys-, palvelu tai toimintakokonaisuuksille. Tällaisia ovat
+  esimerkiksi linnat, huvipuistot, ostoskeskukset, teollisuusalueet,  retkeily
+  ja luontomaktkailukohteet, sekä muut nähtävyydet. 360-experiencellä vierailija
+  hahmottaa alueen paremmin ja pääsee tutustumaan tarkemmin kiinnostaviin
+  kohteisiin, esim virtuaalikierroksin tai videoin.
 ---
