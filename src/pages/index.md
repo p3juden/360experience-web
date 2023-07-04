@@ -25,10 +25,11 @@ intro:
 
     - image: /img/home-img2.jpg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Virtuaaliesittelyillä pääsee virtuaalisesti aistimaan näkymät paikan
+        päällä. Pääset navigoimaan ympäri aluetta ja katselemaan ympärillesi
+        omassa rauhassa. 
+
+        360 kuva kertoo vähintään yhtä paljon kuin 8 kuvaa.
     - image: /img/tutorials.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
