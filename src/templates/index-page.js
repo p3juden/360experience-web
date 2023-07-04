@@ -8,6 +8,7 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 import ReactPannellum from "react-pannellum";
+import ReactPlayer from "react-player";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -28,6 +29,14 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
+  const video1Url = "https://vimeo.com/731717687";
+  const video2Url = "https://vimeo.com/731293881";
+
+  const reactPlayerStyles = {
+    height: "100%",
+    width: "100%"
+  };
+
   const heroImage = getImage(image) || image;
   const heroImage2 = getImage(image2) || image2;
   const heroImage3 = getImage(image3) || image3;
@@ -47,12 +56,17 @@ export const IndexPageTemplate = ({
     pitch: -30,
   };
 
+  const url1 = "https://heinolan-kaupunki.s3.eu-west-1.amazonaws.com/pictures/360/satama-md.jpg";
+  //const url2 = "https://360experience.s3.eu-west-1.amazonaws.com/web/urajarven-kartano360.jpg";
+  const url2 = "https://360experience.s3.eu-west-1.amazonaws.com/web/mantyharju360.jpg";
+
+
   return (
     <div>
       <ReactPannellum
         id="1"
         sceneId="firstScene"
-        imageSource="https://heinolan-kaupunki.s3.eu-west-1.amazonaws.com/pictures/360/satama-md.jpg"
+        imageSource={url1}
         config={config}
         style={{ width: '100vw', height: '60vh', marginBottom: "0.5em", display: "grid", alignItems: "center",}}
       >
@@ -100,6 +114,81 @@ export const IndexPageTemplate = ({
               </h3>
             )}
           </div>
+
+          {/*selectedPannelum?.hotspots.map(props => (
+              <Pannellum.Hotspot
+                {...props}
+                key={props.URL}
+                tooltip={hotspot}
+                handleClick={hotspotClickHandler}
+                cssClass={`jumpTo ${props.scale ? props.scale : ""}`}
+              />
+          ))*/}
+
+        </ReactPannellum>
+
+        <ReactPannellum
+        id="1"
+        sceneId="firstScene"
+        imageSource={url2}
+        config={config}
+        style={{ width: '100vw', height: '60vh', marginBottom: "0.5em", display: "grid", alignItems: "center",}}
+      >
+        <div
+            style={{
+              // By using the same grid area for both, they are stacked on top of each other
+              //marginTop: "0.5rem",
+              gridArea: "1/1",
+              position: "relative",
+              // This centers the other elements inside the hero component
+              placeItems: "center",
+              display: "grid",
+              zIndex: 1,
+            }}
+          >
+              {/*title && (
+              <h1
+                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                style={{
+                  boxShadow:
+                    "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                  backgroundColor: "rgb(185,66,96)",
+                  color: "white",
+                  lineHeight: "1",
+                  padding: "0.25em",
+                }}
+              >
+                {title}
+              </h1>
+              )*/}
+            {/*subheading && (
+              <h3
+                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                style={{
+                  boxShadow:
+                    "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                  backgroundColor: "rgb(185,66,96)",
+                  color: "white",
+                  lineHeight: "1",
+                  padding: "0.25rem",
+                  marginTop: "0.5rem",
+                }}
+              >
+                {subheading}
+              </h3>
+              )*/}
+          </div>
+
+          {/*selectedPannelum?.hotspots.map(props => (
+              <Pannellum.Hotspot
+                {...props}
+                key={props.URL}
+                tooltip={hotspot}
+                handleClick={hotspotClickHandler}
+                cssClass={`jumpTo ${props.scale ? props.scale : ""}`}
+              />
+          ))*/}
+
         </ReactPannellum>
       
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
@@ -118,7 +207,49 @@ export const IndexPageTemplate = ({
         title={title4}
         subheading={subheading4}
       />
-
+      <div style={{ flex: 1, flexDirection: "row", width: '100vw', height: '60vh', marginBottom: "0.5em", alignItems: "space-between",}}>
+    
+            <ReactPlayer
+              url={video1Url}
+              playsinline={true}
+              height="90vh"
+              playing={true}
+              style={reactPlayerStyles}
+              controls={false}
+              autoplay={true}
+              //onEnded={() => setShowVimeoVideoFrame(false)}
+              config={{
+                vimeo: {
+                  title: "Heippa hei",
+                  playerOptions: {
+                    color: "c9365f",
+                    transparent: true
+                  }
+                }
+              }}
+            />
+          
+            <ReactPlayer
+              url={video2Url}
+              playsinline={true}
+              height="90vh"
+              playing={true}
+              style={reactPlayerStyles}
+              controls={false}
+              autoplay={true}
+              //onEnded={() => setShowVimeoVideoFrame(false)}
+              config={{
+                vimeo: {
+                  title: "Heippa hei",
+                  playerOptions: {
+                    color: "c9365f",
+                    transparent: true
+                  }
+                }
+              }}
+            />  
+      </div>
+      
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
