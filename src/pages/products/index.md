@@ -29,12 +29,9 @@ intro:
         navigointipistettä. Pakettihintaan kuuluu  10 visualisointia ja 10
         videota jotka voidaan lisätä jokaiseen navigointipisteeseen näkyviin.
     - image: /img/360homebanner3.jpg
-      text: >-
-        Custom pakettiimme kuuluu suurikoikoinen ja kovaääninen Saija
-        Seponseponseppo
-
-
-        Hintaa on pakko kysyä erikseen
+      text: Custom pakettimme on täysin räätälöiutävissä tarpeisiinne. Se voi sisältää
+        esim 6 navigointpistettä, 6 videota, 6 virtualisointia kohteestanne
+        riippuen. Kysy tarjous.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
