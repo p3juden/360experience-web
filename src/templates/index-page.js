@@ -34,7 +34,7 @@ export const IndexPageTemplate = ({
 
   const reactPlayerStyles = {
     height: "100%",
-    width: "100%"
+    width: "100%",
   };
 
   const heroImage = getImage(image) || image;
@@ -47,75 +47,106 @@ export const IndexPageTemplate = ({
     autoRotate: -5,
     showFullscreenCtrl: false,
     keyboardZoom: false,
-    hotspotDebug:true,
+    hotspotDebug: false,
     mouseZoom: false,
     showFullscreenCtrl: false,
     showControls: false,
-    orientationOnByDefault:true,
+    orientationOnByDefault: true,
     hfov: 150,
-    pitch: -30,
+    pitch: -20,
   };
 
-  const url1 = "https://heinolan-kaupunki.s3.eu-west-1.amazonaws.com/pictures/360/satama-md.jpg";
-  //const url2 = "https://360experience.s3.eu-west-1.amazonaws.com/web/urajarven-kartano360.jpg";
-  const url2 = "https://360experience.s3.eu-west-1.amazonaws.com/web/mantyharju360.jpg";
-
+  const url1 =
+    "https://heinolan-kaupunki.s3.eu-west-1.amazonaws.com/pictures/360/satama-md.jpg";
+  //const url2 = "https://360experience.s3.eu-west-1.amazonaws.com/web/kelvenne-pohjoinen1.jpg";
+  const url2 =
+    "https://360experience.s3.eu-west-1.amazonaws.com/web/kelvenne-pohjoinen1-with-POIs.jpg";
+  const url3 =
+    "https://360experience.s3.eu-west-1.amazonaws.com/web/urajarven-kartano360-with-POIs.jpg";
 
   return (
-    <div>
+    <div style={{ margin: 0, padding: 0 }}>
+      <ReactPlayer
+        url={video1Url}
+        playsinline={true}
+        height={"100vh"}
+        width={"100vw"}
+        playing={true}
+        loop={true}
+        muted={true}
+        style={reactPlayerStyles}
+        controls={false}
+        autoPlay={true}
+        config={{
+          vimeo: {
+            title: "Heippa hei",
+            playerOptions: {
+              color: "c9365f",
+              transparent: true,
+            },
+          },
+        }}
+      />
+
       <ReactPannellum
         id="1"
         sceneId="firstScene"
         imageSource={url1}
         config={config}
-        style={{ width: '100vw', height: '60vh', marginBottom: "0.5em", display: "grid", alignItems: "center",}}
+        style={{
+          width: "100vw",
+          height: "70vh",
+          marginBottom: "0.5em",
+          display: "grid",
+          alignItems: "center",
+        }}
       >
         <div
-            style={{
-              // By using the same grid area for both, they are stacked on top of each other
-              //marginTop: "0.5rem",
-              gridArea: "1/1",
-              position: "relative",
-              // This centers the other elements inside the hero component
-              placeItems: "center",
-              display: "grid",
-              zIndex: 1,
-            }}
-          >
-              {title && (
-              <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(185,66,96)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25em",
-                }}
-              >
-                {title}
-              </h1>
-            )}
-            {subheading && (
-              <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(185,66,96)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25rem",
-                  marginTop: "0.5rem",
-                }}
-              >
-                {subheading}
-              </h3>
-            )}
-          </div>
+          style={{
+            // By using the same grid area for both, they are stacked on top of each other
+            //marginTop: "0.5rem",
+            gridArea: "1/1",
+            position: "relative",
+            // This centers the other elements inside the hero component
+            placeItems: "center",
+            display: "grid",
+            zIndex: 1,
+          }}
+        >
+          {title && (
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                boxShadow:
+                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                backgroundColor: "rgb(185,66,96)",
+                color: "white",
+                lineHeight: "1",
+                padding: "0.25em",
+              }}
+            >
+              {title}
+            </h1>
+          )}
+          {subheading && (
+            <h3
+              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+              style={{
+                boxShadow:
+                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                backgroundColor: "rgb(185,66,96)",
+                color: "white",
+                lineHeight: "1",
+                padding: "0.25rem",
+                marginTop: "0.5rem",
+              }}
+            >
+              {subheading}
+            </h3>
+          )}
+        </div>
 
-          {/*selectedPannelum?.hotspots.map(props => (
+        {/*selectedPannelum?.hotspots.map(props => (
               <Pannellum.Hotspot
                 {...props}
                 key={props.URL}
@@ -124,62 +155,67 @@ export const IndexPageTemplate = ({
                 cssClass={`jumpTo ${props.scale ? props.scale : ""}`}
               />
           ))*/}
+      </ReactPannellum>
 
-        </ReactPannellum>
-
-        <ReactPannellum
-        id="1"
-        sceneId="firstScene"
+      <ReactPannellum
+        id="2"
+        sceneId="secondScene"
         imageSource={url2}
         config={config}
-        style={{ width: '100vw', height: '60vh', marginBottom: "0.5em", display: "grid", alignItems: "center",}}
+        style={{
+          width: "100vw",
+          height: "70vh",
+          marginBottom: "0.5em",
+          display: "grid",
+          alignItems: "center",
+        }}
       >
         <div
-            style={{
-              // By using the same grid area for both, they are stacked on top of each other
-              //marginTop: "0.5rem",
-              gridArea: "1/1",
-              position: "relative",
-              // This centers the other elements inside the hero component
-              placeItems: "center",
-              display: "grid",
-              zIndex: 1,
-            }}
-          >
-              {/*title && (
-              <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(185,66,96)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25em",
-                }}
-              >
-                {title}
-              </h1>
-              )*/}
-            {/*subheading && (
-              <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(185,66,96)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25rem",
-                  marginTop: "0.5rem",
-                }}
-              >
-                {subheading}
-              </h3>
-              )*/}
-          </div>
+          style={{
+            // By using the same grid area for both, they are stacked on top of each other
+            //marginTop: "0.5rem",
+            gridArea: "1/1",
+            position: "relative",
+            // This centers the other elements inside the hero component
+            placeItems: "center",
+            display: "grid",
+            zIndex: 1,
+          }}
+        >
+          {title2 && (
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                boxShadow:
+                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                backgroundColor: "rgb(185,66,96)",
+                color: "white",
+                lineHeight: "1",
+                padding: "0.25em",
+              }}
+            >
+              {title2}
+            </h1>
+          )}
+          {subheading2 && (
+            <h3
+              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+              style={{
+                boxShadow:
+                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                backgroundColor: "rgb(185,66,96)",
+                color: "white",
+                lineHeight: "1",
+                padding: "0.25rem",
+                marginTop: "0.5rem",
+              }}
+            >
+              {subheading2}
+            </h3>
+          )}
+        </div>
 
-          {/*selectedPannelum?.hotspots.map(props => (
+        {/*selectedPannelum?.hotspots.map(props => (
               <Pannellum.Hotspot
                 {...props}
                 key={props.URL}
@@ -188,15 +224,83 @@ export const IndexPageTemplate = ({
                 cssClass={`jumpTo ${props.scale ? props.scale : ""}`}
               />
           ))*/}
+      </ReactPannellum>
 
-        </ReactPannellum>
-      
+      <ReactPannellum
+        id="3"
+        sceneId="thirdScene"
+        imageSource={url3}
+        config={config}
+        style={{
+          width: "100vw",
+          height: "70vh",
+          marginBottom: "0.5em",
+          display: "grid",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            // By using the same grid area for both, they are stacked on top of each other
+            //marginTop: "0.5rem",
+            gridArea: "1/1",
+            position: "relative",
+            // This centers the other elements inside the hero component
+            placeItems: "center",
+            display: "grid",
+            zIndex: 1,
+          }}
+        >
+          {title3 && (
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+              style={{
+                boxShadow:
+                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                backgroundColor: "rgb(185,66,96)",
+                color: "white",
+                lineHeight: "1",
+                padding: "0.25em",
+              }}
+            >
+              {title3}
+            </h1>
+          )}
+          {subheading3 && (
+            <h3
+              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+              style={{
+                boxShadow:
+                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
+                backgroundColor: "rgb(185,66,96)",
+                color: "white",
+                lineHeight: "1",
+                padding: "0.25rem",
+                marginTop: "0.5rem",
+              }}
+            >
+              {subheading3}
+            </h3>
+          )}
+        </div>
+
+        {/*selectedPannelum?.hotspots.map(props => (
+              <Pannellum.Hotspot
+                {...props}
+                key={props.URL}
+                tooltip={hotspot}
+                handleClick={hotspotClickHandler}
+                cssClass={`jumpTo ${props.scale ? props.scale : ""}`}
+              />
+          ))*/}
+      </ReactPannellum>
+      {/* 
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <FullWidthImage
         img={heroImage2}
         title={title2}
         subheading={subheading2}
-      />
+      />*/}
       <FullWidthImage
         img={heroImage3}
         title={title3}
@@ -207,49 +311,7 @@ export const IndexPageTemplate = ({
         title={title4}
         subheading={subheading4}
       />
-      <div style={{ flex: 1, flexDirection: "row", width: '100vw', height: '60vh', marginBottom: "0.5em", alignItems: "space-between",}}>
-    
-            <ReactPlayer
-              url={video1Url}
-              playsinline={true}
-              height="90vh"
-              playing={true}
-              style={reactPlayerStyles}
-              controls={false}
-              autoplay={true}
-              //onEnded={() => setShowVimeoVideoFrame(false)}
-              config={{
-                vimeo: {
-                  title: "Heippa hei",
-                  playerOptions: {
-                    color: "c9365f",
-                    transparent: true
-                  }
-                }
-              }}
-            />
-          
-            <ReactPlayer
-              url={video2Url}
-              playsinline={true}
-              height="90vh"
-              playing={true}
-              style={reactPlayerStyles}
-              controls={false}
-              autoplay={true}
-              //onEnded={() => setShowVimeoVideoFrame(false)}
-              config={{
-                vimeo: {
-                  title: "Heippa hei",
-                  playerOptions: {
-                    color: "c9365f",
-                    transparent: true
-                  }
-                }
-              }}
-            />  
-      </div>
-      
+
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -272,14 +334,15 @@ export const IndexPageTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div>
-                  <Features gridItems={intro.blurbs} />
+                  {/*<Features gridItems={intro.blurbs} />*/}
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
-                        See all products
+                        Näytä tuotepaketit
                       </Link>
                     </div>
                   </div>
+                  {/* 
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
@@ -291,6 +354,7 @@ export const IndexPageTemplate = ({
                       </Link>
                     </div>
                   </div>
+                  */}
                 </div>
               </div>
             </div>
