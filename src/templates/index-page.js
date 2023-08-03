@@ -65,12 +65,12 @@ export const IndexPageTemplate = ({
     "https://360experience.s3.eu-west-1.amazonaws.com/web/urajarven-kartano360-with-POIs.jpg";
 
   return (
-    <div style={{ margin: 0, padding: 0 }}>
+    <div style={{ margin: 0, padding: 0, height:"100%", width:"100%"}}>
       <ReactPlayer
         url={video1Url}
         playsinline={true}
-        height={"100vh"}
-        width={"100vw"}
+        height={"60vw"} 
+        width={"100vw"} 
         playing={true}
         loop={true}
         muted={true}
