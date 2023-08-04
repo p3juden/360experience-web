@@ -65,12 +65,12 @@ export const IndexPageTemplate = ({
     "https://360experience.s3.eu-west-1.amazonaws.com/web/urajarven-kartano360-with-POIs.jpg";
 
   return (
-    <div style={{ margin: 0, padding: 0, height:"100%", width:"100%"}}>
+    <div style={{ margin: 0, padding: 0, height: "100%", width: "100%" }}>
       <ReactPlayer
         url={video1Url}
         playsinline={true}
-        height={"60vw"} 
-        width={"100vw"} 
+        height={"60vw"}
+        width={"100vw"}
         playing={true}
         loop={true}
         muted={true}
@@ -301,6 +301,32 @@ export const IndexPageTemplate = ({
         title={title2}
         subheading={subheading2}
       />*/}
+
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-12">
+                <h3 className="has-text-weight-semibold is-size-2">
+                  {heading}
+                </h3>
+                <p>{description}</p>
+              </div>
+            </div>
+            {/*<Features gridItems={intro.blurbs} />*/}
+            <div className="columns">
+              <div className="column is-12 has-text-centered">
+                <Link className="btn" to="/products">
+                  Näytä tuotepaketit
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {<Features gridItems={intro.blurbs} />}
+
       <FullWidthImage
         img={heroImage3}
         title={title3}
@@ -327,34 +353,12 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                   <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
-                  </div>
-                  {/*<Features gridItems={intro.blurbs} />*/}
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        Näytä tuotepaketit
-                      </Link>
-                    </div>
-                  </div>
-                  {/* 
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
-                  </div>
-                  */}
+              <div className="column is-12 has-text-centered">
+                <Link className="btn" to="/products">
+                  Näytä tuotepaketit
+                </Link>
+              </div>
+            </div>
                 </div>
               </div>
             </div>
