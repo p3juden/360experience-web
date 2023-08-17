@@ -4,25 +4,22 @@ heading: Näe, koe, tutustu uudella tavalla
 subheading: Näe, koe, tutustu uudella tavalla
 mainpitch:
   title: Miksi valita 360-experience matkailun edistämiseen?
-  description: >-
-    Matkailijoiden aika on rajallista, ja nykyään yhä useammat matkailijat
+  description: >
+    <p>Matkailijoiden aika on rajallista, ja nykyään yhä useammat matkailijat
     haluavat optimoida kokemuksensa lyhyen lomansa aikana. Tämän vuoksi
-    tarjoamme 360-experience -ratkaisun, joka vastaa tähän tarpeeseen
-    tehokkaasti. Sovelluksemme mahdollistaa matkailijoille mahdollisuuden
-    tutustua kohteisiin etukäteen, jotta he voivat löytää parhaat mahdolliset
-    kokemukset jo ennen matkaa.
+    tarjoamme <strong>360-experience</strong> -ratkaisun, joka vastaa tähän
+    tarpeeseen tehokkaasti. Sovelluksemme mahdollistaa matkailijoille
+    mahdollisuuden tutustua kohteisiin etukäteen, jotta he voivat löytää parhaat
+    mahdolliset kokemukset jo ennen matkaa.</p>
 
-    <br>
 
-    360-experience tarjoaa modernin ja innovatiivisen tavan tutustua kohteeseenne virtuaalisesti. Olipa kyseessä kaupunki, nähtävyys tai palvelukokonaisuus, voitte esitellä ne ainutlaatuisella tavalla potentiaalisille kävijöille. Virtuaalinen tutustumismahdollisuus mahdollistaa syvällisen ja elämyksellisen kuvan kohteestanne ennen matkaa, jolloin matkailijat voivat suunnitella vierailunsa tarkasti ja kohdistaa huomionsa juuri heitä kiinnostaviin nähtävyyksiin.
+    <p><strong>360-experience</strong> tarjoaa modernin ja innovatiivisen tavan tutustua kohteeseenne virtuaalisesti. Olipa kyseessä kaupunki, nähtävyys tai palvelukokonaisuus, voitte esitellä ne ainutlaatuisella tavalla potentiaalisille kävijöille. Virtuaalinen tutustumismahdollisuus mahdollistaa syvällisen ja elämyksellisen kuvan kohteestanne ennen matkaa, jolloin matkailijat voivat suunnitella vierailunsa tarkasti ja kohdistaa huomionsa juuri heitä kiinnostaviin nähtävyyksiin.</p>
 
-    <br>
 
-    Lisäksi 360-experience tarjoaa kävijöille mahdollisuuden astua sisään paikan tunnelmaan ja ympäristöön ennen matkaa. Tämä herättää mielenkiinnon ja innostuksen, mikä voi johtaa pidempään ja syvällisempään vierailuun. Sovellus avaa uusia ovia matkailun edistämiseen, tarjoten matkailijoille näkökulman, joka voi auttaa heitä tekemään päätöksiä matkasuunnitelmistaan entistä harkitummin.
+    <p>Lisäksi <strong>360-experience</strong> tarjoaa kävijöille mahdollisuuden astua sisään paikan tunnelmaan ja ympäristöön ennen matkaa. Tämä herättää mielenkiinnon ja innostuksen, mikä voi johtaa pidempään ja syvällisempään vierailuun. Sovellus avaa uusia ovia matkailun edistämiseen, tarjoten matkailijoille näkökulman, joka voi auttaa heitä tekemään päätöksiä matkasuunnitelmistaan entistä harkitummin.</p>
 
-    <br>
 
-    Yhteenvetona, 360-experience tarjoaa tehokkaan ja modernein keinoin matkailijoille mahdollisuuden kokea kohteenne virtuaalisesti ennen matkaa. Tämä auttaa heitä tekemään suunnitelmiaan paremmin ja lisää kiinnostusta matkaanne kohtaan.
+    <p>Yhteenvetona, <strong>360-experience</strong> tarjoaa tehokkaan ja modernein keinoin matkailijoille mahdollisuuden kokea kohteenne virtuaalisesti ennen matkaa. Tämä auttaa heitä tekemään suunnitelmiaan paremmin ja lisää kiinnostusta matkaanne kohtaan.</p>
 intro:
   blurbs:
     - image: /img/home-img1.jpg
