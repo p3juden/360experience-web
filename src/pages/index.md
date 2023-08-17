@@ -136,16 +136,16 @@ image4: /img/360homebanner-siltasaariterde.jpg
 title2: NOUSE TAIVAALLE
 title3: KOE
 title4: TUTUSTU
-description: '"Näe, koe ja tutustu uudella tavalla 360-experience-sovelluksen
+description: Näe, koe ja tutustu uudella tavalla 360-experience-sovelluksen
   avulla. Tarjoamme ainutlaatuisen mahdollisuuden kunnille, kaupungeille sekä
   erilaisille nähtävyys-, palvelu- ja toimintakokonaisuuksille. Olipa kyseessä
   historiallinen linna, jännittävä huvipuisto, viihtyisä ostoskeskus, vilkas
   teollisuusalue, upea retkeily- ja luontomatkailukohde tai mikä tahansa muu
-  nähtävyys, 360-experience avaa aivan uudenlaisen tavan lähestyä
-  matkailua."  "360-experience tarjoaa vierailijoille mahdollisuuden hahmottaa
-  alueet entistä paremmin ja tutustua syvemmin kiinnostaviin kohteisiin.
-  Virtuaalikierrokset sekä interaktiiviset videot tarjoavat elämyksen, joka jää
-  mieleen pitkäksi aikaa. Lisäksi sovelluksemme tarjoaa käyttäjille
-  mahdollisuuden astua virtuaalisesti sisätiloihin ja kokea paikan tunnelman
-  aivan kuin olisivat itse paikan päällä."'
+  nähtävyys, 360-experience avaa aivan uudenlaisen tavan lähestyä matkailua.
+  360-experience tarjoaa vierailijoille mahdollisuuden hahmottaa alueet entistä
+  paremmin ja tutustua syvemmin kiinnostaviin kohteisiin. Virtuaalikierrokset
+  sekä interaktiiviset videot tarjoavat elämyksen, joka jää mieleen pitkäksi
+  aikaa. Lisäksi sovelluksemme tarjoaa käyttäjille mahdollisuuden astua
+  virtuaalisesti sisätiloihin ja kokea paikan tunnelman aivan kuin olisivat itse
+  paikan päällä.
 ---
