@@ -57,7 +57,7 @@ intro:
 
 
         Joten, astu mukaan tähän virtuaaliseen seikkailuun. Klikkaa 360-kuvaan ja anna mielikuvituksen viedä sinut mukanaan. Kuka tietää, missä kaikkialla voitkaan vielä vierailla virtuaalisesti – kaikki on mahdollista tässä jännittävässä matkailun maailmassa.
-    - image: /img/tutorials.png
+    - image: /img/thumb3.png
       text: >
         Kuvittele, että istut mukavasti sohvalla kotona, ja päätät avata
         puhelimesi tai tietokoneesi. Klikkaat videota, ja äkkiä olet siirretty
@@ -75,7 +75,7 @@ intro:
 
 
         Joten anna videon viedä sinut mukanaan. Klikkaa play-nappia ja avaa ovi uusiin seikkailuihin. Ehkä seuraavaksi olet vuoristossa, seilaat merellä tai vierailet toisella mantereella. Matkailu on nyt enemmän kuin koskaan aikaisemmin, ja video on sinun passisi tähän jännittävään maailmaan.
-    - image: /img/meeting-space.png
+    - image: /img/thumb4.png
       text: >
         Kuvittele, että olet mukavasti kotona tai työpaikallasi. Sinulla on
         hetki aikaa, ja päätät avata tietokoneesi tai älylaitteesi. Klikkaat
