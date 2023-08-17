@@ -77,11 +77,24 @@ intro:
         Joten anna videon viedä sinut mukanaan. Klikkaa play-nappia ja avaa ovi uusiin seikkailuihin. Ehkä seuraavaksi olet vuoristossa, seilaat merellä tai vierailet toisella mantereella. Matkailu on nyt enemmän kuin koskaan aikaisemmin, ja video on sinun passisi tähän jännittävään maailmaan.
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Kuvittele, että olet mukavasti kotona tai työpaikallasi. Sinulla on
+        hetki aikaa, ja päätät avata tietokoneesi tai älylaitteesi. Klikkaat
+        auki 360-kuvien maailman, ja yhtäkkiä olet aivan uudessa ympäristössä.
+
+
+        Nämä 360-kuvat ovat kuin taikaportti, joka vie sinut lentoon kuin lintu. Voit navigoida ympäriinsä kuin olisit itse paikan päällä. Katsot alaspäin ja näet kohteen jalkojesi alla. Katsot ylöspäin ja näet laajat maisemat avautuvan edessäsi.
+
+
+        Tämä on enemmän kuin vain katsomista. Tämä on kokemista. Voit kääntyä ympäri, zoomata lähemmäs yksityiskohtia ja tutkia paikan potentiaalia. Se on kuin virtuaalinen matka kohteeseen, joka on vain klikkauksen päässä.
+
+
+        Tiedätkö, mikä tekee tästä vielä mahtavampaa? Se on ekologista ja vaivatonta. Et tarvitse lentolippuja tai pitkiä matkustuspäiviä. Voit tutustua kohteeseen ennen kuin astut siihen paikan päällä. Voit kokea sen tunnelman ja mahdollisuudet lintuperspektiivistä käsin.
+
+
+        Vähän kuin ekologinen aikamatkaaja, voit astua paikkaan ennen kuin sinun tarvitsee edes lähteä kotoa. Voit suunnitella matkasi tarkasti ja päättää, mikä osa kohteesta sinua eniten kiinnostaa. Helppoutta, ekologisuutta ja elämyksiä - kaikki yhdistettyinä yhteen ainutlaatuiseen tapaan kokea maailma.
+
+
+        Niin, klikkaa vain 360-kuvaa, ja anna mielikuvituksen lentää. Astu sisään virtuaaliseen maailmaan ja tutustu paikkoihin kuin olisit siellä itse. Se on matka, joka ei vie sinua kauas kotoa, mutta joka voi viedä sinut kauas normaalista.
   heading: Mita tarjoamme
   description: >-
     Tervetuloa tutustumaan innovatiiviseen alustaan alueenne virtuaaliseen
@@ -107,25 +120,9 @@ title: 360 EXPERIENCE
 image: /img/360homebanner-vesitornisunset.jpg
 main:
   heading: Great coffee with no compromises
-  description: >
-    Kuvittele, että olet mukavasti kotona tai työpaikallasi. Sinulla on hetki
-    aikaa, ja päätät avata tietokoneesi tai älylaitteesi. Klikkaat auki
-    360-kuvien maailman, ja yhtäkkiä olet aivan uudessa ympäristössä.
-
-
-    Nämä 360-kuvat ovat kuin taikaportti, joka vie sinut lentoon kuin lintu. Voit navigoida ympäriinsä kuin olisit itse paikan päällä. Katsot alaspäin ja näet kohteen jalkojesi alla. Katsot ylöspäin ja näet laajat maisemat avautuvan edessäsi.
-
-
-    Tämä on enemmän kuin vain katsomista. Tämä on kokemista. Voit kääntyä ympäri, zoomata lähemmäs yksityiskohtia ja tutkia paikan potentiaalia. Se on kuin virtuaalinen matka kohteeseen, joka on vain klikkauksen päässä.
-
-
-    Tiedätkö, mikä tekee tästä vielä mahtavampaa? Se on ekologista ja vaivatonta. Et tarvitse lentolippuja tai pitkiä matkustuspäiviä. Voit tutustua kohteeseen ennen kuin astut siihen paikan päällä. Voit kokea sen tunnelman ja mahdollisuudet lintuperspektiivistä käsin.
-
-
-    Vähän kuin ekologinen aikamatkaaja, voit astua paikkaan ennen kuin sinun tarvitsee edes lähteä kotoa. Voit suunnitella matkasi tarkasti ja päättää, mikä osa kohteesta sinua eniten kiinnostaa. Helppoutta, ekologisuutta ja elämyksiä - kaikki yhdistettyinä yhteen ainutlaatuiseen tapaan kokea maailma.
-
-
-    Niin, klikkaa vain 360-kuvaa, ja anna mielikuvituksen lentää. Astu sisään virtuaaliseen maailmaan ja tutustu paikkoihin kuin olisit siellä itse. Se on matka, joka ei vie sinua kauas kotoa, mutta joka voi viedä sinut kauas normaalista.
+  description: |-
+    
+    Great coffee with no compromises
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
