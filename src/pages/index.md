@@ -12,12 +12,15 @@ mainpitch:
     tutustua kohteisiin etukäteen, jotta he voivat löytää parhaat mahdolliset
     kokemukset jo ennen matkaa.
 
+    <br>
 
     360-experience tarjoaa modernin ja innovatiivisen tavan tutustua kohteeseenne virtuaalisesti. Olipa kyseessä kaupunki, nähtävyys tai palvelukokonaisuus, voitte esitellä ne ainutlaatuisella tavalla potentiaalisille kävijöille. Virtuaalinen tutustumismahdollisuus mahdollistaa syvällisen ja elämyksellisen kuvan kohteestanne ennen matkaa, jolloin matkailijat voivat suunnitella vierailunsa tarkasti ja kohdistaa huomionsa juuri heitä kiinnostaviin nähtävyyksiin.
 
+    <br>
 
     Lisäksi 360-experience tarjoaa kävijöille mahdollisuuden astua sisään paikan tunnelmaan ja ympäristöön ennen matkaa. Tämä herättää mielenkiinnon ja innostuksen, mikä voi johtaa pidempään ja syvällisempään vierailuun. Sovellus avaa uusia ovia matkailun edistämiseen, tarjoten matkailijoille näkökulman, joka voi auttaa heitä tekemään päätöksiä matkasuunnitelmistaan entistä harkitummin.
 
+    <br>
 
     Yhteenvetona, 360-experience tarjoaa tehokkaan ja modernein keinoin matkailijoille mahdollisuuden kokea kohteenne virtuaalisesti ennen matkaa. Tämä auttaa heitä tekemään suunnitelmiaan paremmin ja lisää kiinnostusta matkaanne kohtaan.
 intro:
