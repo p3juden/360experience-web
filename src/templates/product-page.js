@@ -81,10 +81,10 @@ export const ProductPageTemplate = ({
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-      <Testimonials testimonials={testimonials} />
-      </div>
-      </div>
-      </div>
+                <Testimonials testimonials={testimonials} />
+            </div>
+          </div>
+        </div>
 
       {/* removed pricing -> replace with calculator <section className="section section--gradient">
         <div className="container">
@@ -214,12 +214,6 @@ export const productPageQuery = graphql`
         testimonials {
           author
           quote
-        }
-
-        full_image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
         }
         pricing {
           heading
