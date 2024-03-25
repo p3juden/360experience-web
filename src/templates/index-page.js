@@ -79,7 +79,7 @@ export const IndexPageTemplate = ({
         autoPlay={true}
         config={{
           vimeo: {
-            title: "Heippa hei",
+            title: "",
             playerOptions: {
               color: "c9365f",
               transparent: true,
@@ -342,7 +342,7 @@ export const IndexPageTemplate = ({
         <div className="container">
           <div className="section">
             <div className="columns">
-              <div className="column is-10 is-offset-1">
+              <div className="column is-12 is-offset-1">
                 <div className="content">
                   <div className="content">
                     <div className="tile">
@@ -469,7 +469,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+                gatsbyImageData(width: 640, quality: 100, layout: CONSTRAINED)
               }
             }
             text
