@@ -5,32 +5,43 @@ subheading: Näe, koe, tutustu uudella tavalla
 mainpitch:
   title: Miksi valita 360-experience matkailun edistämiseen?
   description: >
-    <p>Matkailijoiden aika on rajallista, ja nykyään yhä useammat matkailijat
+    Matkailijoiden aika on rajallista, ja nykyään yhä useammat matkailijat
     haluavat optimoida kokemuksensa lyhyen lomansa aikana. Tämän vuoksi
-    tarjoamme <strong>360-experience</strong> -ratkaisun, joka vastaa tähän
-    tarpeeseen tehokkaasti. Sovelluksemme mahdollistaa matkailijoille
-    mahdollisuuden tutustua kohteisiin etukäteen, jotta he voivat löytää parhaat
-    mahdolliset kokemukset jo ennen matkaa.</p>
+    tarjoamme 360-experience -ratkaisun, joka vastaa tähän tarpeeseen
+    tehokkaasti. Sovelluksemme mahdollistaa matkailijoille mahdollisuuden
+    tutustua kohteisiin etukäteen, jotta he voivat löytää parhaat mahdolliset
+    kokemukset jo ennen matkaa.
 
 
-    <p><strong>360-experience</strong> tarjoaa modernin ja innovatiivisen tavan tutustua kohteeseenne virtuaalisesti. Olipa kyseessä kaupunki, nähtävyys tai palvelukokonaisuus, voitte esitellä ne ainutlaatuisella tavalla potentiaalisille kävijöille. Virtuaalinen tutustumismahdollisuus mahdollistaa syvällisen ja elämyksellisen kuvan kohteestanne ennen matkaa, jolloin matkailijat voivat suunnitella vierailunsa tarkasti ja kohdistaa huomionsa juuri heitä kiinnostaviin nähtävyyksiin.</p>
+    360-experience tarjoaa modernin ja innovatiivisen tavan tutustua kohteeseenne virtuaalisesti. Olipa kyseessä kaupunki, nähtävyys tai palvelukokonaisuus, voitte esitellä ne ainutlaatuisella tavalla potentiaalisille kävijöille. Virtuaalinen tutustumismahdollisuus mahdollistaa syvällisen ja elämyksellisen kuvan kohteestanne ennen matkaa, jolloin matkailijat voivat suunnitella vierailunsa tarkasti ja kohdistaa huomionsa juuri heitä kiinnostaviin nähtävyyksiin.
 
 
-    <p>Lisäksi <strong>360-experience</strong> tarjoaa kävijöille mahdollisuuden astua sisään paikan tunnelmaan ja ympäristöön ennen matkaa. Tämä herättää mielenkiinnon ja innostuksen, mikä voi johtaa pidempään ja syvällisempään vierailuun. Sovellus avaa uusia ovia matkailun edistämiseen, tarjoten matkailijoille näkökulman, joka voi auttaa heitä tekemään päätöksiä matkasuunnitelmistaan entistä harkitummin.</p>
+    Lisäksi 360-experience tarjoaa kävijöille mahdollisuuden astua sisään paikan tunnelmaan ja ympäristöön ennen matkaa. Tämä herättää mielenkiinnon ja innostuksen, mikä voi johtaa pidempään ja syvällisempään vierailuun. Sovellus avaa uusia ovia matkailun edistämiseen, tarjoten matkailijoille näkökulman, joka voi auttaa heitä tekemään päätöksiä matkasuunnitelmistaan entistä harkitummin.
 
 
-    <p>Yhteenvetona, <strong>360-experience</strong> tarjoaa tehokkaan ja modernein keinoin matkailijoille mahdollisuuden kokea kohteenne virtuaalisesti ennen matkaa. Tämä auttaa heitä tekemään suunnitelmiaan paremmin ja lisää kiinnostusta matkaanne kohtaan.</p>
+    360-experience tarjoaa tehokkaan ja modernein keinoin matkailijoille mahdollisuuden kokea kohteenne virtuaalisesti ennen matkaa. Tämä auttaa heitä tekemään suunnitelmiaan paremmin ja lisää kiinnostusta matkaanne kohtaan.
 intro:
   blurbs:
     - image: /img/home-img1.jpg
       text: >-2
-            <h1>Heinola - Virtuaalinen Matka 360-experiencen Avulla!</h1>
-            <p>Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan <strong>360-experience</strong> -sovelluksen kautta! Heinola tarjoaa ainutlaatuisen mahdollisuuden tutustua kaupunkiin lintuperspektiivistä ja sukeltaa syvemmälle sen upeisiin kohteisiin.</p>
-            <p>Olemme ylpeitä voidessamme esitellä aluksi pienen, mutta houkuttelevan 5 navigointipisteen paketin, jonka avulla voit saada ensimakua siitä, mitä Heinola tarjoaa. Ja mikä parasta, suunnitelmissamme on laajentaa kokemusta entisestään vuoden 2023 aikana!</p>
-            <p>Käy tutustumassa osoitteessa <a href="https://360.heinola.fi">https://360.heinola.fi</a> ja avaa ikkuna Heinolan kaupunkiin lintuperspektiivistä. Voit vierailla upeilla kohteilla, kuten idyllisellä Siltasaarella tai viihtyisällä perhepuistolla. Koe Heinolan ainutlaatuinen tunnelma ja kauneus virtuaalisesti, ja anna mielikuvituksesi viedä sinut mukaan matkalle.</p>
-            <p>Kuvittele nyt hetki – mitä tarinasi olisi? Miten esittelisit oman kuntasi tai kohteesi vierailijoille? <strong>360-experience</strong> antaa mahdollisuuden herättää paikat eloon ja kertoa tarinoita uudella tavalla. Näytä vierailijoille, mitä ainutlaatuista sinun kohteesi tarjoaa, johdattaen heidät unohtumattomaan matkaan kauniin Heinolan kaltaisessa ympäristössä.</p>
-            <p>Olemme innoissamme siitä, että voimme olla matkakumppanisi tässä uudessa ja jännittävässä virtuaalisen matkailun maailmassa. Anna mielikuvituksesi lentää ja mieti, mitä sinä voisit tarjota vierailijoillesi tätä kiehtovaa teknologiaa hyödyntäen.</p>
-            <p>Tervetuloa mukaan virtuaalisen matkailun tulevaisuuteen, tervetuloa Heinolaan!</p>
+          Heinola - Virtuaalinen Matka 360-experiencen Avulla!
+
+        Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan 360-experience -sovelluksen kautta! Heinola tarjoaa ainutlaatuisen mahdollisuuden tutustua kaupunkiin lintuperspektiivistä ja sukeltaa syvemmälle sen upeisiin kohteisiin.
+
+
+        Olemme ylpeitä voidessamme esitellä aluksi pienen, mutta houkuttelevan 5 navigointipisteen paketin, jonka avulla voit saada ensimakua siitä, mitä Heinola tarjoaa. Ja mikä parasta, suunnitelmissamme on laajentaa kokemusta entisestään vuoden 2023 aikana!
+
+
+        Käy tutustumassa osoitteessa 360.heinola.fi ja avaa ikkuna Heinolan kaupunkiin lintuperspektiivistä. Voit vierailla upeilla kohteilla, kuten idyllisellä Siltasaarella tai viihtyisällä perhepuistolla. Koe Heinolan ainutlaatuinen tunnelma ja kauneus virtuaalisesti, ja anna mielikuvituksesi viedä sinut mukaan matkalle.
+
+
+        Kuvittele nyt hetki – mitä tarinasi olisi? Miten esittelisit oman kuntasi tai kohteesi vierailijoille? 360-experience antaa mahdollisuuden herättää paikat eloon ja kertoa tarinoita uudella tavalla. Näytä vierailijoille, mitä ainutlaatuista sinun kohteesi tarjoaa, johdattaen heidät unohtumattomaan matkaan kauniin Heinolan kaltaisessa ympäristössä.
+
+
+        Olemme innoissamme siitä, että voimme olla matkakumppanisi tässä uudessa ja jännittävässä virtuaalisen matkailun maailmassa. Anna mielikuvituksesi lentää ja mieti, mitä sinä voisit tarjota vierailijoillesi tätä kiehtovaa teknologiaa hyödyntäen.
+
+
+        Tervetuloa mukaan virtuaalisen matkailun tulevaisuuteen, tervetuloa Heinolaan!
     - image: /img/home-img2.jpg
       text: >-
         Oletko koskaan haaveillut istuvasi viehättävän kahvilan terassilla joen
