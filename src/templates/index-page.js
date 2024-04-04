@@ -287,6 +287,54 @@ export const IndexPageTemplate = ({
 
       {<Features gridItems={intro.blurbs} />}
 
+      <section className="section section--gradient">
+          <div className="container">
+            <div className="section">
+              <div className="columns">
+                <div className="column is-12 has-text-centered">
+                  <div className="content">
+                    <div className="content">  
+                    <h1 className="title">
+                        Tutustu esimerkkikohteeseemme Heinola 360-experience
+                    </h1>
+                    <p className="subtitle">
+                      Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan 360-experience -sovelluksen kautta! Heinola tarjoaa ainutlaatuisen mahdollisuuden tutustua kaupunkiin lintuperspektiivistä ja sukeltaa syvemmälle sen upeisiin kohteisiin.
+                    </p>
+                  </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <div className="column is-12 has-text-centered">
+        <Link className="btn" to="https://360.heinola.fi">
+            360.heinola.fi
+        </Link>
+      </div>
+
+      <section className="section section--gradient">
+          <div className="container">
+            <div className="section">
+              <div className="columns">
+                <div className="column is-12 has-text-centered">
+
+                <div className="content">
+                  <h3 className="title">
+                    Kuvittele nyt hetki – mikä oma tarinasi olisi ja miten esittelisit oman kohteesi vierailijoille?
+                  </h3>
+                  <p className="subtitle">
+                    360-experience antaa mahdollisuuden herättää paikat eloon ja kertoa tarinoita uudella tavalla. <br/>
+                    Näytä vierailijoille, mitä ainutlaatuista sinun kohteesi tarjoa!
+                  </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </section>
+
       <FullWidthImage
         img={heroImage3}
         title={title3}
@@ -308,18 +356,21 @@ export const IndexPageTemplate = ({
                       </div>
                     </div>
                     <div className="columns">
-                <div className="column is-12 has-text-centered">
-                  <Link className="btn" to="/about">
-                      Tutustu tarkemmin
-                  </Link>
-                </div>
-              </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+    <section className="section section--gradient">
+      <div className="column is-12 has-text-centered">
+        <Link className="btn" to="/about">
+        Tutustu tarkemmin
+        </Link>
+      </div>
+    </section>
 
       <FullWidthImage
         img={heroImage4}
@@ -329,11 +380,11 @@ export const IndexPageTemplate = ({
 
     <section className="section section--gradient">
       <div className="column is-12 has-text-centered">
-          <Link className="btn" to="/products">
-            Näytä tuotepaketit
-          </Link>
-        </div>
-      </section>
+        <Link className="btn" to="/products">
+          Näytä tuotepaketit
+        </Link>
+      </div>
+    </section>
 
       {/*<section className="section section--gradient">
         <div className="container">
