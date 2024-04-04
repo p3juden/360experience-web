@@ -19,19 +19,13 @@ intro:
         Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan 360-experience -sovelluksen kautta! Heinola tarjoaa ainutlaatuisen mahdollisuuden tutustua kaupunkiin lintuperspektiivistä ja sukeltaa syvemmälle sen upeisiin kohteisiin.
 
 
-        Olemme ylpeitä voidessamme esitellä aluksi pienen, mutta houkuttelevan 5 navigointipisteen paketin, jonka avulla voit saada ensimakua siitä, mitä Heinola tarjoaa. Ja mikä parasta, suunnitelmissamme on laajentaa kokemusta entisestään vuoden 2023 aikana!
-
-
         Käy tutustumassa osoitteessa 360.heinola.fi ja avaa ikkuna Heinolan kaupunkiin lintuperspektiivistä. Voit vierailla upeilla kohteilla, kuten idyllisellä Siltasaarella tai viihtyisällä perhepuistolla. Koe Heinolan ainutlaatuinen tunnelma ja kauneus virtuaalisesti, ja anna mielikuvituksesi viedä sinut mukaan matkalle.
 
 
-        Kuvittele nyt hetki – mitä tarinasi olisi? Miten esittelisit oman kuntasi tai kohteesi vierailijoille? 360-experience antaa mahdollisuuden herättää paikat eloon ja kertoa tarinoita uudella tavalla. Näytä vierailijoille, mitä ainutlaatuista sinun kohteesi tarjoaa, johdattaen heidät unohtumattomaan matkaan kauniin Heinolan kaltaisessa ympäristössä.
+        Kuvittele nyt hetki – mikä oma tarinasi olisi? Miten esittelisit oman kuntasi tai kohteesi vierailijoille? 
 
 
-        Olemme innoissamme siitä, että voimme olla matkakumppanisi tässä uudessa ja jännittävässä virtuaalisen matkailun maailmassa. Anna mielikuvituksesi lentää ja mieti, mitä sinä voisit tarjota vierailijoillesi tätä kiehtovaa teknologiaa hyödyntäen.
-
-
-        Tervetuloa mukaan virtuaalisen matkailun tulevaisuuteen, tervetuloa Heinolaan!
+        360-experience antaa mahdollisuuden herättää paikat eloon ja kertoa tarinoita uudella tavalla. Näytä vierailijoille, mitä ainutlaatuista sinun kohteesi tarjoa!
     - image: /img/home-img2.jpg
       text: >-
         Oletko koskaan haaveillut istuvasi viehättävän kahvilan terassilla joen
@@ -45,13 +39,10 @@ intro:
         Virtuaaliesittely tarjoaa sinulle ainutlaatuisen tilaisuuden kokea näkymät kuin olisit paikan päällä. Voit navigoida vapaasti ympäri aluetta ja katsella ympärillesi aivan kuin olisit siellä itse. Tuntuu kuin tuuli leyhyttäisi hiuksiasi ja aurinko lämmittäisi kasvojasi. Voit uppoutua maiseman yksityiskohtiin ja ihailla maisemaa jokaisesta kulmasta käsin.
 
 
-        Kuvittele hetki, että tämä virtuaaliesittely on avain, joka avaa oven unohtumattomalle elämykselle. Se vie sinut kahvilan terassille, jossa voit uppoutua tähän rauhalliseen hetkeen ja nauttia kauniista näkymistä. Tämä on kuin ottaisit aikalisän arjen keskellä ja pääsisit pakomatkalle kauniiseen ympäristöön.
+        Tiedätkö mikä on vielä hienompaa? Yksi virtuaaliesitys kertoo enemmän kuin tuhat sanaa tai kahdeksan perinteistä valokuvaa. Se on kuin avain, joka avaa oven paikan tunnelmaan ja tarjoaa sinulle mahdollisuuden kokea paikka moniulotteisesti. Virtuaaliesittelyt avaavat uusia mahdollisuuksia matkustaa ja tutustua, vaikka olisitkin vain kotisohvallasi.
 
 
-        Tiedätkö mikä on vielä hienompaa? Yksi 360-kuva kertoo enemmän kuin sanat tai kahdeksan perinteistä valokuvaa. Se on kuin avain, joka avaa oven paikan tunnelmaan ja tarjoaa sinulle mahdollisuuden kokea paikka moniulotteisesti. Virtuaaliesittelyt avaavat uusia mahdollisuuksia matkustaa ja tutustua, vaikka olisitkin vain kotisohvallasi.
-
-
-        Joten, astu mukaan tähän virtuaaliseen seikkailuun. Klikkaa 360-kuvaan ja anna mielikuvituksen viedä sinut mukanaan. Kuka tietää, missä kaikkialla voitkaan vielä vierailla virtuaalisesti – kaikki on mahdollista tässä jännittävässä matkailun maailmassa.
+        Astu mukaan tähän virtuaaliseen seikkailuun. Klikkaa virtuaalikuvaan ja anna mielikuvituksen viedä sinut mukanaan. Kuka tietää, missä kaikkialla voitkaan vielä vierailla virtuaalisesti – kaikki on mahdollista tässä jännittävässä matkailun maailmassa.
     - image: /img/thumb3.png
       text: >
         Kuvittele, että istut mukavasti sohvalla kotona, ja päätät avata
