@@ -88,6 +88,34 @@ export const IndexPageTemplate = ({
         }}
       />
 
+      {title && (
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              color: "black",
+              lineHeight: "1",
+              marginTop: "1rem",
+              textAlign: "center"
+            }}
+          >
+            {title}
+          </h1>
+        )}
+        {subheading && (
+          <h3
+            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            style={{
+              color: "black",
+              lineHeight: "1",
+              marginTop: "0.5rem",
+              marginBottom: "2rem",
+              textAlign: "center"
+            }}
+          >
+            {subheading}
+          </h3>
+        )}
+
       <ReactPannellum
         id="1"
         sceneId="firstScene"
@@ -95,8 +123,8 @@ export const IndexPageTemplate = ({
         config={config}
         style={{
           width: "100vw",
-          height: "70vh",
-          marginBottom: "0.5em",
+          height: "40vh",
+          marginBottom: "1em",
           display: "grid",
           alignItems: "center",
         }}
@@ -112,50 +140,36 @@ export const IndexPageTemplate = ({
             display: "grid",
             zIndex: 1,
           }}
-        >
-          {title && (
-            <h1
-              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-              style={{
-                boxShadow:
-                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                backgroundColor: "rgb(185,66,96)",
-                color: "white",
-                lineHeight: "1",
-                padding: "0.25em",
-              }}
-            >
-              {title}
-            </h1>
-          )}
-          {subheading && (
-            <h3
-              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-              style={{
-                boxShadow:
-                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                backgroundColor: "rgb(185,66,96)",
-                color: "white",
-                lineHeight: "1",
-                padding: "0.25rem",
-                marginTop: "0.5rem",
-              }}
-            >
-              {subheading}
-            </h3>
-          )}
-        </div>
-
-        {/*selectedPannelum?.hotspots.map(props => (
-              <Pannellum.Hotspot
-                {...props}
-                key={props.URL}
-                tooltip={hotspot}
-                handleClick={hotspotClickHandler}
-                cssClass={`jumpTo ${props.scale ? props.scale : ""}`}
-              />
-          ))*/}
+        />
       </ReactPannellum>
+
+      {title2 && (
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              color: "black",
+              lineHeight: "1",
+              marginTop: "1rem",
+              textAlign: "center"
+            }}
+          >
+            {title2}
+          </h1>
+        )}
+        {subheading2 && (
+          <h3
+            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            style={{
+              color: "black",
+              lineHeight: "1",
+              marginTop: "0.5rem",
+              marginBottom: "2rem",
+              textAlign: "center"
+            }}
+          >
+            {subheading2}
+          </h3>
+        )}
 
       <ReactPannellum
         id="2"
@@ -164,8 +178,8 @@ export const IndexPageTemplate = ({
         config={config}
         style={{
           width: "100vw",
-          height: "70vh",
-          marginBottom: "0.5em",
+          height: "40vh",
+          marginBottom: "1em",
           display: "grid",
           alignItems: "center",
         }}
@@ -181,50 +195,37 @@ export const IndexPageTemplate = ({
             display: "grid",
             zIndex: 1,
           }}
-        >
-          {title2 && (
-            <h1
-              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-              style={{
-                boxShadow:
-                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                backgroundColor: "rgb(185,66,96)",
-                color: "white",
-                lineHeight: "1",
-                padding: "0.25em",
-              }}
-            >
-              {title2}
-            </h1>
-          )}
-          {subheading2 && (
-            <h3
-              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-              style={{
-                boxShadow:
-                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                backgroundColor: "rgb(185,66,96)",
-                color: "white",
-                lineHeight: "1",
-                padding: "0.25rem",
-                marginTop: "0.5rem",
-              }}
-            >
-              {subheading2}
-            </h3>
-          )}
-        </div>
-
-        {/*selectedPannelum?.hotspots.map(props => (
-              <Pannellum.Hotspot
-                {...props}
-                key={props.URL}
-                tooltip={hotspot}
-                handleClick={hotspotClickHandler}
-                cssClass={`jumpTo ${props.scale ? props.scale : ""}`}
-              />
-          ))*/}
+        />
+        
       </ReactPannellum>
+
+      {title3 && (
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              color: "black",
+              lineHeight: "1",
+              marginTop: "1rem",
+              textAlign: "center"
+            }}
+          >
+            {title3}
+          </h1>
+        )}
+        {subheading3 && (
+          <h3
+            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            style={{
+              color: "black",
+              lineHeight: "1",
+              marginTop: "0.5rem",
+              marginBottom: "2rem",
+              textAlign: "center"
+            }}
+          >
+            {subheading3}
+          </h3>
+        )}
 
       <ReactPannellum
         id="3"
@@ -233,8 +234,8 @@ export const IndexPageTemplate = ({
         config={config}
         style={{
           width: "100vw",
-          height: "70vh",
-          marginBottom: "0.5em",
+          height: "40vh",
+          marginBottom: "1em",
           display: "grid",
           alignItems: "center",
         }}
@@ -250,49 +251,8 @@ export const IndexPageTemplate = ({
             display: "grid",
             zIndex: 1,
           }}
-        >
-          {title3 && (
-            <h1
-              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-              style={{
-                boxShadow:
-                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                backgroundColor: "rgb(185,66,96)",
-                color: "white",
-                lineHeight: "1",
-                padding: "0.25em",
-              }}
-            >
-              {title3}
-            </h1>
-          )}
-          {subheading3 && (
-            <h3
-              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-              style={{
-                boxShadow:
-                  "rgb(185,66,96) 0.5rem 0px 0px, rgb(185,66,96) -0.5rem 0px 0px",
-                backgroundColor: "rgb(185,66,96)",
-                color: "white",
-                lineHeight: "1",
-                padding: "0.25rem",
-                marginTop: "0.5rem",
-              }}
-            >
-              {subheading3}
-            </h3>
-          )}
-        </div>
+        />
 
-        {/*selectedPannelum?.hotspots.map(props => (
-              <Pannellum.Hotspot
-                {...props}
-                key={props.URL}
-                tooltip={hotspot}
-                handleClick={hotspotClickHandler}
-                cssClass={`jumpTo ${props.scale ? props.scale : ""}`}
-              />
-          ))*/}
       </ReactPannellum>
       {/* 
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
@@ -332,13 +292,50 @@ export const IndexPageTemplate = ({
         title={title3}
         subheading={subheading3}
       />
+
+      <section className="section section--gradient">
+          <div className="container">
+            <div className="section">
+              <div className="columns">
+                <div className="column is-12 is-offset-1">
+                  <div className="content">
+                    <div className="content">
+                      <div className="tile">
+                        <h1 className="title">{mainpitch.title}</h1>
+                      </div>
+                      <div className="tile">
+                        <h3 className="subtitle">{mainpitch.description}</h3>
+                      </div>
+                    </div>
+                    <div className="columns">
+                <div className="column is-12 has-text-centered">
+                  <Link className="btn" to="/about">
+                      Tutustu tarkemmin
+                  </Link>
+                </div>
+              </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
       <FullWidthImage
         img={heroImage4}
         title={title4}
         subheading={subheading4}
       />
 
-      <section className="section section--gradient">
+    <section className="section section--gradient">
+      <div className="column is-12 has-text-centered">
+          <Link className="btn" to="/products">
+            Näytä tuotepaketit
+          </Link>
+        </div>
+      </section>
+
+      {/*<section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -364,7 +361,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
-      </section>
+    </section>*/}
     </div>
   );
 };

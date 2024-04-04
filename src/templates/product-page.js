@@ -86,7 +86,8 @@ export const ProductPageTemplate = ({
           </div>
         </div>
 
-      {/* removed pricing -> replace with calculator <section className="section section--gradient">
+      {/* removed pricing -> replace with calculator 
+      <section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -100,7 +101,8 @@ export const ProductPageTemplate = ({
             </div>
           </div>
         </div>
-  </section>*/}
+        </section>
+    */}
     </div>
   );
 };
