@@ -4,22 +4,12 @@ heading: Näe, koe, tutustu uudella tavalla
 subheading: Näe, koe, tutustu uudella tavalla
 mainpitch:
   title: Miksi valita 360-experience matkailun edistämiseen?
-  description: >
-    Matkailijoiden aika on rajallista, ja nykyään yhä useammat matkailijat
-    haluavat optimoida kokemuksensa lyhyen lomansa aikana. Tämän vuoksi
-    tarjoamme 360-experience -ratkaisun, joka vastaa tähän tarpeeseen
+  description: Matkailijoiden aika on rajallista, ja nykyään yhä useammat
+    matkailijat haluavat optimoida kokemuksensa lyhyen lomansa aikana. Tämän
+    vuoksi tarjoamme 360-experience -ratkaisun, joka vastaa tähän tarpeeseen
     tehokkaasti. Sovelluksemme mahdollistaa matkailijoille mahdollisuuden
     tutustua kohteisiin etukäteen, jotta he voivat löytää parhaat mahdolliset
     kokemukset jo ennen matkaa.
-
-
-    360-experience tarjoaa modernin ja innovatiivisen tavan tutustua kohteeseenne virtuaalisesti. Olipa kyseessä kaupunki, nähtävyys tai palvelukokonaisuus, voitte esitellä ne ainutlaatuisella tavalla potentiaalisille kävijöille. Virtuaalinen tutustumismahdollisuus mahdollistaa syvällisen ja elämyksellisen kuvan kohteestanne ennen matkaa, jolloin matkailijat voivat suunnitella vierailunsa tarkasti ja kohdistaa huomionsa juuri heitä kiinnostaviin nähtävyyksiin.
-
-
-    Lisäksi 360-experience tarjoaa kävijöille mahdollisuuden astua sisään paikan tunnelmaan ja ympäristöön ennen matkaa. Tämä herättää mielenkiinnon ja innostuksen, mikä voi johtaa pidempään ja syvällisempään vierailuun. Sovellus avaa uusia ovia matkailun edistämiseen, tarjoten matkailijoille näkökulman, joka voi auttaa heitä tekemään päätöksiä matkasuunnitelmistaan entistä harkitummin.
-
-
-    360-experience tarjoaa tehokkaan ja modernein keinoin matkailijoille mahdollisuuden kokea kohteenne virtuaalisesti ennen matkaa. Tämä auttaa heitä tekemään suunnitelmiaan paremmin ja lisää kiinnostusta matkaanne kohtaan.
 intro:
   blurbs:
     - image: /img/home-img1.jpg
@@ -109,10 +99,7 @@ intro:
     kokemuksen.
 
 
-    Virtuaaliesittelyllämme avautuu ovi aivan uudenlaiseen tapaan kokea alueenne. Kävijät voivat tutustua paikkoihin lintuperspektiivistä, navigoida vapaasti ympäriinsä ja tuntea paikan tunnelman aivan kuin olisivat itse paikan päällä. Tämä tarjoaa kävijöille mahdollisuuden uppoutua alueenne tarjontaan ilman fyysistä matkustamista.
-
-
-    Unohda matkustaminen - me tuomme alueenne kävijöiden ulottuville digitaalisesti. Räätälöidyt virtuaaliesittelymme integroituvat saumattomasti nettisivustoillenne, luoden helpon ja houkuttelevan tavan kokea alueenne potentiaali. Virtuaaliesittelyt avaavat ovet kävijöille, jotta he voivat tutustua alueeseenne omalla aikataulullaan.
+    Virtuaaliesittelyllämme avautuu ovi aivan uudenlaiseen tapaan kokea alueenne. Kävijät voivat tutustua paikkoihin lintuperspektiivistä, navigoida vapaasti ympäriinsä ja tuntea paikan tunnelman aivan kuin olisivat itse paikan päällä. 
 
 
     Astukaa uuteen aikaan virtuaalisen matkailun kanssa. Tarjoamme teille mahdollisuuden esitellä alueenne modernilla tavalla, joka kiinnostaa kävijöitä ja houkuttelee heitä tutustumaan alueeseenne tarkemmin. Otetaan yhdessä askel kohti tulevaisuutta ja avataan uusia mahdollisuuksia virtuaalisen esittelyn avulla.
