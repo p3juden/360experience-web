@@ -12,12 +12,19 @@ const FeatureGrid = ({ gridItems }) => (
               style={{
                 width: "100%",
                 display: "inline-block",
+                padding: "1rem"
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>{item.text}</p>
+          <div
+              style={{
+                width: "100%",
+                padding: "1rem"
+              }}
+            ><p>{item.text}</p></div>
+          
         </section>
       </div>
     ))}
