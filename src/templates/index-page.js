@@ -75,7 +75,7 @@ export const IndexPageTemplate = ({
         loop={true}
         muted={true}
         style={reactPlayerStyles}
-        controls={false}
+        controls={true}
         autoPlay={true}
         config={{
           vimeo: {
@@ -285,7 +285,9 @@ export const IndexPageTemplate = ({
         </div>
       </section>
 
-      {<Features gridItems={intro.blurbs} />}
+      <BlogRoll />
+      
+      {/*<Features gridItems={intro.blurbs} />*/}
 
       <section className="section section--gradient">
           <div className="container">

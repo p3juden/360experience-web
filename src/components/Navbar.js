@@ -43,16 +43,16 @@ const Navbar = () => {
                 Tietoja
               </Link>
             </li>
-            <li className="navbar-item" style={{padding: "0px"}}>
+            {/*<li className="navbar-item" style={{padding: "0px"}}>
             <Link className="navbar-item" to="/products">
               Tuotteet
             </Link>
-            </li>
-            {/*<li className="navbar-item" style={{padding: "0px"}}>
+            </li>*/}
+            {<li className="navbar-item" style={{padding: "0px"}}>
             <Link className="navbar-item" to="/blog">
               Blogi
             </Link>
-            </li>*/}
+            </li>}
             <li className="navbar-item" style={{padding: "0px"}}>
             <Link className="navbar-item" to="/contact">
               Yhteydenotto
