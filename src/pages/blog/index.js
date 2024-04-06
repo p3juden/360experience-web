@@ -22,7 +22,7 @@ export default class BlogIndexPage extends React.Component {
               padding: "1rem",
             }}
           >
-            Latest Stories
+            Tarinoita 360 maailmasta
           </h1>
         </div>
         <section className="section">

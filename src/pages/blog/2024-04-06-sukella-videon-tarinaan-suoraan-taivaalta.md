@@ -6,6 +6,7 @@ description: 360-experience on enemmän kuin pelkkä alusta, dronekuva, video, t
   virtuaaliesittely yksittäin, se on avain uudenlaiseen kokemukseen.
 featuredpost: true
 featuredimage: /img/thumb3.png
+tags: ["360", "Heinola"]
 ---
 Kuvittele, että istut mukavasti sohvalla kotona, ja päätät avata puhelimesi tai tietokoneesi. 
 

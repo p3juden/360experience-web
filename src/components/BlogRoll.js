@@ -20,7 +20,7 @@ const BlogRollTemplate = (props) => {
             >
               <header>
                 {post?.frontmatter?.featuredimage && (
-                  <div className="featured-thumbnail">
+                  <div className="featured-thumbnail" style={{height: '120px'}}>
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: post.frontmatter.featuredimage,
@@ -53,7 +53,7 @@ const BlogRollTemplate = (props) => {
                 <br />
                 <br />
                 <Link className="button" to={post.fields.slug}>
-                  Keep Reading →
+                  Lue lisää →
                 </Link>
               </p>
             </article>
@@ -96,7 +96,7 @@ export default function BlogRoll() {
                   featuredimage {
                     childImageSharp {
                       gatsbyImageData(
-                        width: 120
+                        width: 240
                         quality: 100
                         layout: CONSTRAINED
                       )

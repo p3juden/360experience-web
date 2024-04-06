@@ -2,9 +2,10 @@
 templateKey: blog-post
 title: Taikaportti maailmaan
 date: 2024-04-06T10:24:11.190Z
-description: Mikä on sinun "Backet listasi"
+description: Mikä on sinun "Matkatoivelistasi?"
 featuredpost: true
 featuredimage: /img/thumb4.png
+tags: ["360", "Heinola"]
 ---
 Kuvittele, että olet mukavasti kotona tai työpaikallasi. Sinulla on hetki aikaa, ja päätät avata tietokoneesi tai älylaitteesi. Klikkaat auki 360-kuvien maailman, ja yhtäkkiä olet aivan uudessa ympäristössä. 
 

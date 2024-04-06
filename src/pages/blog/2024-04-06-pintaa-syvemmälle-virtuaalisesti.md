@@ -7,6 +7,7 @@ description: Astu mukaan tähän tarinaan, joka vie sinut virtuaaliselle matkall
   rauhassasi
 featuredpost: true
 featuredimage: /img/360homebanner-siltasaariterde.jpg
+tags: ["360", "Heinola"]
 ---
 Oletko koskaan haaveillut istuvasi viehättävän kahvilan terassilla joen rannalla, nauttien kauniista maisemista ja rentoutuneesta tunnelmasta? Unelmasta voi tulla totta virtuaaliesittelyiden avulla. 
 

@@ -6,6 +6,7 @@ description: "Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan
   360-experience -sovelluksen kautta! "
 featuredpost: true
 featuredimage: /img/360homebanner-satama.jpg
+tags: ["360", "Heinola"]
 ---
 Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan 360-experience -sovelluksen kautta! 
 
