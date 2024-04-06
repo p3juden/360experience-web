@@ -6,10 +6,10 @@ description: "Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan
   360-experience -sovelluksen kautta! "
 featuredpost: true
 featuredimage: /img/360homebanner-satama.jpg
-tags: ["360", "Heinola"]
+tags:
+  - "360"
+  - Heinola
 ---
-Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan 360-experience -sovelluksen kautta! 
-
 Heinola tarjoaa ainutlaatuisen mahdollisuuden tutustua kaupunkiin lintuperspektiivistä ja sukeltaa syvemmälle sen upeisiin kohteisiin. 
 
 Käy tutustumassa osoitteessa[ 360.heinola.fi](https://360.heinola.fi) ja avaa ikkuna Heinolan kaupunkiin lintuperspektiivistä. Voit vierailla upeilla kohteilla, kuten idyllisellä Siltasaarella tai viihtyisällä perhepuistolla. Koe Heinolan ainutlaatuinen tunnelma ja kauneus virtuaalisesti, ja anna mielikuvituksesi viedä sinut mukaan matkalle.
