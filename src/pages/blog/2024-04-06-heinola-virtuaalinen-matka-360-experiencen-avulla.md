@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Heinola - Virtuaalinen Matka 360-experiencen Avulla!
+title: Virtuaalinen matka Heinolaan 360-experiencen Avulla!
 date: 2024-04-06T10:06:49.419Z
 description: "Tervetuloa ensimmäisenä Suomessa Heinolan virtuaaliseen matkaan
   360-experience -sovelluksen kautta! "
