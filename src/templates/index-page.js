@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense, lazy } from 'react';
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
@@ -7,8 +7,8 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
-import ReactPannellum from "react-pannellum";
-import ReactPlayer from "react-player";
+//import ReactPlayer from "react-player";
+//import ReactPannellum from "react-pannellum";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -64,29 +64,34 @@ export const IndexPageTemplate = ({
   const url3 =
     "https://360experience.s3.eu-west-1.amazonaws.com/web/urajarven-kartano360-with-POIs.jpg";
 
+  const LazyReactPlayer = lazy(() => import('react-player'));
+  const LazyReactPannellum = lazy(() => import("react-pannellum"));
+
   return (
     <div style={{ margin: 0, padding: 0, height: "100%", width: "100%" }}>
-      <ReactPlayer
-        url={video1Url}
-        playsinline={true}
-        height={"60vw"}
-        width={"100vw"}
-        playing={true}
-        loop={true}
-        muted={true}
-        style={reactPlayerStyles}
-        controls={true}
-        autoPlay={true}
-        config={{
-          vimeo: {
-            title: "",
-            playerOptions: {
-              color: "c9365f",
-              transparent: true,
-            },
-          },
-        }}
-      />
+        <Suspense fallback={<div>Ladataan videota...</div>}>
+          <LazyReactPlayer
+            url={video1Url}
+            playsinline={true}
+            height={"60vw"}
+            width={"100vw"}
+            playing={true}
+            loop={true}
+            muted={true}
+            style={reactPlayerStyles}
+            controls={true}
+            autoPlay={true}
+            config={{
+              vimeo: {
+                title: "",
+                playerOptions: {
+                  color: "c9365f",
+                  transparent: true,
+                },
+              },
+            }}
+        />
+      </Suspense>
 
       {title && (
           <h1
@@ -116,7 +121,23 @@ export const IndexPageTemplate = ({
           </h3>
         )}
 
-      <ReactPannellum
+      <Suspense fallback={<div>Ladataan 360 näkymää...</div>}>
+        <LazyReactPannellum
+          id="1"
+          sceneId="firstScene"
+          imageSource={url1}
+          config={config}
+          style={{
+            width: "100vw",
+            height: "40vh",
+            marginBottom: "1em",
+            display: "grid",
+            alignItems: "center",
+          }}
+        />
+      </Suspense>
+
+     {/*} <ReactPannellum
         id="1"
         sceneId="firstScene"
         imageSource={url1}
@@ -128,7 +149,7 @@ export const IndexPageTemplate = ({
           display: "grid",
           alignItems: "center",
         }}
-      >
+      >}
         <div
           style={{
             // By using the same grid area for both, they are stacked on top of each other
@@ -142,6 +163,7 @@ export const IndexPageTemplate = ({
           }}
         />
       </ReactPannellum>
+      */}
 
       {title2 && (
           <h1
@@ -171,7 +193,7 @@ export const IndexPageTemplate = ({
           </h3>
         )}
 
-      <ReactPannellum
+      {/*<ReactPannellum
         id="2"
         sceneId="secondScene"
         imageSource={url2}
@@ -197,7 +219,23 @@ export const IndexPageTemplate = ({
           }}
         />
         
-      </ReactPannellum>
+        </ReactPannellum>*/}
+
+        <Suspense fallback={<div>Ladataan 360 näkymää...</div>}>
+          <LazyReactPannellum
+            id="2"
+            sceneId="secondScene"
+            imageSource={url2}
+            config={config}
+            style={{
+              width: "100vw",
+              height: "40vh",
+              marginBottom: "1em",
+              display: "grid",
+              alignItems: "center",
+            }}
+          />
+        </Suspense>
 
       {title3 && (
           <h1
@@ -227,7 +265,7 @@ export const IndexPageTemplate = ({
           </h3>
         )}
 
-      <ReactPannellum
+      {/*<ReactPannellum
         id="3"
         sceneId="thirdScene"
         imageSource={url3}
@@ -253,7 +291,24 @@ export const IndexPageTemplate = ({
           }}
         />
 
-      </ReactPannellum>
+        </ReactPannellum>*/}
+
+        <Suspense fallback={<div>Ladataan 360 näkymää...</div>}>
+          <LazyReactPannellum
+            id="3"
+            sceneId="thirdScene"
+            imageSource={url3}
+            config={config}
+            style={{
+              width: "100vw",
+              height: "40vh",
+              marginBottom: "1em",
+              display: "grid",
+              alignItems: "center",
+            }}
+          />
+        </Suspense>
+
       {/* 
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <FullWidthImage
